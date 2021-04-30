@@ -12,14 +12,14 @@
 
 ## 3. Adding Path of certificate and key in kibana.yml
 
-unzip elastic-stack-ca.zip
+    unzip elastic-stack-ca.zip
 
-mv ca /
+    mv ca /
 
-sudo nano /etc/kibana/kibana.yml
+    sudo nano /etc/kibana/kibana.yml
 
-server.ssl.enabled : true
-server.ssl.certificate : /ca/ca.crt
-server.ssl.key : /ca/ca.key
+    server.ssl.enabled : true
+    server.ssl.certificate : /ca/ca.crt
+    server.ssl.key : /ca/ca.key
 
-sudo systemctl start kibana
+    sudo systemctl start kibana

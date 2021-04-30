@@ -21,30 +21,34 @@
 
 ## System Passwwords 
 
-### << Default user passwords go here >>
-
-
-
 Changed password for user apm_system
-PASSWORD apm_system = ixicTkGDQvsRD4DVud7G
+PASSWORD apm_system = JemiK9L5LmQGClxFhCID
+
+Changed password for user kibana_system
+PASSWORD kibana_system = Hrpxy7Zi595TN0ResDu0
 
 Changed password for user kibana
-PASSWORD kibana = bkC6npKCtAMBFWZw4ube
+PASSWORD kibana = Hrpxy7Zi595TN0ResDu0
 
 Changed password for user logstash_system
-PASSWORD logstash_system = 8t8t6FAbBPU1SYthqQnW
+PASSWORD logstash_system = XpEiTzfdb6ERydaxMeWe
 
 Changed password for user beats_system
-PASSWORD beats_system = fRoOzNLyZ5lB8bKD9SaG
+PASSWORD beats_system = PWdGDIQbT8mFpwsLEpRI
 
 Changed password for user remote_monitoring_user
-PASSWORD remote_monitoring_user = Ais1CsbZtl0KbIHDHZ2i
+PASSWORD remote_monitoring_user = mANAh62R544JcKokFfOg
 
 Changed password for user elastic
-PASSWORD elastic = Vd0DDcdBV5d3gIKRxmVM
+PASSWORD elastic = 3yUm3epwNurHX0ycTiGk
 
 
 ## 5. Add the default username in kibana
+
+sudo nano /etc/kibana/kibana.yml
+
+change default username and password
+
 elasticsearch.username: "kibana"
 elasticsearch.password: "new_password"
 

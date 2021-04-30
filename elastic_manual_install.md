@@ -1,6 +1,4 @@
 # Installation and Configuration of ElasticSearch
-# https://gitlab.com/LabIT/elasticsearch.git
-# Pre-requisites 
 
 ## Install Java
 
